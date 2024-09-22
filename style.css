@@ -1,0 +1,53 @@
+/* html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body .main{
+    background-image: url(back.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+   height: 100vh;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+nav li:hover {
+
+background-color: orange;
+transition: 0.6s;
+
+
+}
+
+
+main .main2 img{
+    width: 650px;
+    height: 672px;
+  
+}
+.page2 img{
+    width: 400px;
+    height: 610px;
+}
+
+@media screen and (max-width:1230px) {
+    .S2{
+        display: none;
+        }
+  .main2 p{
+    text-align: center;
+    margin-top: 180px;
+  }
+  .row{
+    align-items: center;
+    flex-direction: column;
+  }
+    }
